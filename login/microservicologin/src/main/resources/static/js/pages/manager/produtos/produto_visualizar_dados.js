@@ -35,7 +35,7 @@ function visualizarDados(lista) {
                         html += '<i class="fa fa-pencil-square btn-icone-edit"></i>';
                         html += '</button>';
                     html += '</div>';
-                    if(window.sessionStorage.getItem('usuarioGrupo')=='Produto') {
+                    if(window.sessionStorage.getItem('usuarioGrupo')=='CLiente') {
                         html += '<div class="col-sm-12 col-md-1 col-lg-1 col-xl-1 text-center">';
                             html += '<button type="button" class="btn objeto-ativo-inativo p-0">';
                             html += '<i class="fa fa-trash true btn-icone-disabled"></i>';
