@@ -7,7 +7,7 @@
  */
 function visualizarDados(lista) {
 	let indice=0, html='';
-    if(window.sessionStorage.getItem('usuarioGrupo')=='Produto')
+    if(window.sessionStorage.getItem('usuarioGrupo')=='Cliente')
         jQuery('#id_div_pesquisa').css('display', 'nome');
     else
         jQuery('#id_div_pesquisa').css('display', 'block');
@@ -28,8 +28,8 @@ function visualizarDados(lista) {
                     cor='row-background-impar';
                 html += '<div class="row '+cor+'" id="id_row_'+indice+'">'
                     html += '<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-left"><span class="align-middle titulo-coluna-medio text-uppercase">'+(lista[indice].nome ? lista[indice].nome : '')+'</span></div>';
-                    html += '<div class="col-sm-12 col-md-1 col-lg-1 col-xl-1 text-center"><span class="align-middle titulo-coluna-medio">'+(lista[indice].sexo ? lista[indice].sexo : '')+'</span></div>';
-                    html += '<div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 text-center"><span class="align-middle titulo-coluna-medio">'+(lista[indice].cpf ? lista[indice].cpf : '')+'</span></div>';
+                    html += '<div class="col-sm-12 col-md-1 col-lg-1 col-xl-1 text-center"><span class="align-middle titulo-coluna-medio">'+(lista[indice].descricao ? lista[indice].descricao : '')+'</span></div>';
+                    html += '<div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 text-center"><span class="align-middle titulo-coluna-medio">'+(lista[indice].preco ? lista[indice].descricao : '')+'</span></div>';
                     html += '<div class="col-sm-12 col-md-1 col-lg-1 col-xl-1 text-center">';
                         html += '<button type="button" class="btn objeto-ativo-inativo btn-editar p-0" id="editar-'+indice+'">';
                         html += '<i class="fa fa-pencil-square btn-icone-edit"></i>';
