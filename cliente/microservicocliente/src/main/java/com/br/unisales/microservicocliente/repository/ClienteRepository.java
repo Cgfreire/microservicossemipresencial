@@ -11,7 +11,7 @@ import com.br.unisales.microservicocliente.table.Cliente;
 /**
  * @apiNote Classe responsável por realizar o CRUD na tabela cliente do banco de dados
  * 
- * @author Vito Rodrigues Franzosi
+ * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 26.04.2024
  */
 @Repository

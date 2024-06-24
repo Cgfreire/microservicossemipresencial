@@ -11,7 +11,7 @@ import com.br.unisales.microservicologin.table.Usuario;
 /**
  * @apiNote Classe responsável por realizar o CRUD na tabela usuário do banco de dados
  * 
- * @author Vito Rodrigues Franzosi
+ * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 24.04.2024
  */
 @Repository

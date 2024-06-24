@@ -3,7 +3,7 @@
  * @param Json json
  * @returns String frase
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 03.05.2024
  */
 function validarDados(json) {
@@ -20,7 +20,7 @@ function validarDados(json) {
 /**
  * @apiNote Função responsável por salvar os dados do cliente
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 03.05.2024
  */
 async function salvar() {
@@ -48,7 +48,7 @@ async function salvar() {
 /**
  * @apiNote Função responsável por visualizar os dados do cliente para alteração
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 03.05.2024
  */
 function visualizarDados(cliente) {
@@ -66,7 +66,7 @@ function visualizarDados(cliente) {
 /**
  * @apiNote Função responsável por listar os clientes cadastrados
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data criação: 03.05.2024
  */
 async function listarDados(id) {
@@ -82,7 +82,7 @@ async function listarDados(id) {
 /**
  * @apiNote Função responsável por inicialiar esta arquivo
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação: 28.04.2024
  */
 jQuery(function() {

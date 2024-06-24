@@ -2,7 +2,7 @@
  * @apiNote Função responsável por inserir os dados na tabela de visualização da listagem dos usuários
  * @param lista
  *
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação: 12.04.2024
  */
 function visualizarDados(lista) {

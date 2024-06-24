@@ -31,7 +31,7 @@ import jakarta.servlet.http.HttpServletRequest;
 /**
  * @apiNote Classe responsável por receber as requisições do navegador (browser) em relação a tabela usuario
  * 
- * @author Vito Rodrigues Franzosi
+ * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 27.04.2024
  */
 @Controller
@@ -46,7 +46,7 @@ public class UsuarioController {
      * @param HttpServletRequest request
      * @return ResponseEntity<UsuarioModel>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 27.04.2024
      */
     @PostMapping("/login")
@@ -70,7 +70,7 @@ public class UsuarioController {
      * @param HttpServletRequest request
      * @return ResponseEntity<List<UsuarioModel>>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 27.04.2024
      */
     @PostMapping("/listarUsuario")
@@ -96,7 +96,7 @@ public class UsuarioController {
      * @param HttpServletRequest request
      * @return ResponseEntity<UsuarioModel>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 27.04.2024
      */
     @PostMapping("/buscarUsuarioPorId")
@@ -125,7 +125,7 @@ public class UsuarioController {
      * @param HttpServletRequest request
      * @return ResponseEntity<UsuarioModel>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 28.04.2024
      */
     @PostMapping("/salvarUsuario")
@@ -150,7 +150,7 @@ public class UsuarioController {
      * @param HttpServletRequest request
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 28.04.2024
      */
     @PostMapping("/excluirUsuario")
@@ -195,7 +195,7 @@ public class UsuarioController {
      * @param HttpServletRequest request
      * @return String
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 27.04.2024
      */
     @GetMapping("/sair")
@@ -209,7 +209,7 @@ public class UsuarioController {
      * @apiNote Método responsável por criar o token
      * @return UUID
      *
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 30.04.2024
      */
     private UUID criarToken() {
@@ -244,7 +244,7 @@ public class UsuarioController {
      * @param String token
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 03.05.2024
      */
     private ResponseEntity<String> excluirCliente(Integer id, String token) {

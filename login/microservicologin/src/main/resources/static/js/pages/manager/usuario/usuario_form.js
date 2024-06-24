@@ -3,7 +3,7 @@
  * @param Json json
  * @returns String frase
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 28.04.2024
  */
 function validarDados(json) {
@@ -25,7 +25,7 @@ function validarDados(json) {
  * @apiNote Função responsável por verificar se a senha é igual a confirma senha
  * @returns boolean
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 28.04.2024
  */
 function validarSenha() {
@@ -39,7 +39,7 @@ function validarSenha() {
 /**
  * @apiNote Função responsável por salvar os dados do usuário
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 28.04.2024
  */
 async function salvar() {
@@ -80,7 +80,7 @@ async function salvar() {
 /**
  * @apiNote Função responsável por visualizar os dados do usuário para alteração
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 28.04.2024
  */
 function visualizarDados(usuario) {
@@ -109,7 +109,7 @@ function visualizarDados(usuario) {
 /**
  * @apiNote Função responsável por listar os usuários cadastrados
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data criação: 28.04.2024
  */
 async function listarDados(id) {
@@ -124,7 +124,7 @@ async function listarDados(id) {
 /**
  * @apiNote Função responsável por inicialiar esta arquivo
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação: 28.04.2024
  */
 jQuery(function() {

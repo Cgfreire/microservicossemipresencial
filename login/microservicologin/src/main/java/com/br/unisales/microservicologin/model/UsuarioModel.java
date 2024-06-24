@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 /**
  * @apiNote Classe que representa o modelo da classe Usuario
  * 
- * @author Vito Rodrigues Franzosi
+ * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 23.04.2024
  */
 @Data

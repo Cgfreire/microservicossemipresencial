@@ -36,7 +36,7 @@ public class ClienteController {
      * @param HttpServletRequest request
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 30.01.2024
      */
     @PostMapping("/listarCliente")
@@ -69,7 +69,7 @@ public class ClienteController {
      * @param HttpServletRequest request
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 01.05.2024
      */
     @PostMapping("/buscarClientePorId")
@@ -91,7 +91,7 @@ public class ClienteController {
      * @param HttpServletRequest request
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 01.05.2024
      */
     @PostMapping("/salvarCliente")
@@ -115,7 +115,7 @@ public class ClienteController {
      * @param HttpServletRequest request
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 03.05.2024
      */
     @PostMapping("/excluirCliente")

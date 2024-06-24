@@ -11,7 +11,7 @@ import com.br.unisales.microservicocliente.table.ClienteProduto;
 /**
  * @apiNote Método responsável por realizar o crud na tabela cliente_produto
  * 
- * @author Vito Rodrigues Franzosi
+ * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 03.05.2024
  */
 @Repository

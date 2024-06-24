@@ -15,7 +15,7 @@ import com.br.unisales.microservicologin.table.Usuario;
 /**
  * @apiNote Classe responsável por responder as solicitações do controller em relação ao usuário
  * 
- * @author Vito Rodrigues Franzosi
+ * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 24.04.2024
  */
 @Service
@@ -29,11 +29,11 @@ public class UsuarioService {
      * @param String senha
      * @return UsuarioModel
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 24.04.2024
      */
     public UsuarioModel login(String email, String senha) {
-        //Usuario novo = new Usuario(null, "Vito Franzosi", "M", "vito.franzosi@gmail.com", "123456", "Administrador");
+        //Usuario novo = new Usuario(null, "Caio Freire", "M", "caiogfreire@gmail.com", "123456", "Administrador");
         //this.repo.save(novo);
         //novo = new Usuario(null, "Francesco Franzosi", "M", "francesco.franzosi@gmail.com", "123456", "Cliente");
         //this.repo.save(novo);
@@ -47,7 +47,7 @@ public class UsuarioService {
      * @apiNote Método responsável por listar todos os usuários cadastrados
      * @return List<UsuarioModel>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 24.04.2024
      */
     public List<UsuarioModel> listar() {
@@ -62,7 +62,7 @@ public class UsuarioService {
      * @apiNote Método responsável por listar todos os usuários cadastrados
      * @return List<UsuarioModel>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 24.04.2024
      */
     public List<UsuarioModel> listarPorParametros(String nome, String sexo, String email, String grupo) {
@@ -100,7 +100,7 @@ public class UsuarioService {
      * @apiNote Método responsável por buscar o usuário pelo seu id
      * @return UsuarioModel
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 24.04.2024
      */
     public UsuarioModel buscarPorId(Integer id) {
@@ -120,7 +120,7 @@ public class UsuarioService {
      * @param String grupo
      * @return UsuarioModel
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 28.04.2024
      */
     public UsuarioModel salvar(Integer id, String nome, String sexo, String email, String senha, String grupo) {
@@ -144,7 +144,7 @@ public class UsuarioService {
      * @apiNote Método responsável por excluir um usuário do banco de dados
      * @param Integer id
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 28.04.2024
      */
     public void excluir(Integer id) {
@@ -158,7 +158,7 @@ public class UsuarioService {
      * @param Usuario usuario
      * @return UsuarioModel
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 24.04.2024
      */
     private UsuarioModel converterUsuarioToModel(Usuario usuario) {

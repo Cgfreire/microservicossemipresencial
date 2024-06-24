@@ -1,7 +1,7 @@
 /**
  * @apiNote Função responsável por listar os usuários cadastrados
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data criação: 12.04.2024
  */
 async function listarDados() {
@@ -26,7 +26,7 @@ async function listarDados() {
 /**
  * @apiNote Função responsável por visualizar a área de busca do usuário
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 15.04.2024
  */
 function setComboBox() {
@@ -50,7 +50,7 @@ function setComboBox() {
 /**
  * @apiNote Função responsável por inicialiar esta arquivo
  * 
- * @author Vito Rodrigues Franzosi
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação: 06.04.2024 / 15.04.2024
  */
 jQuery(function() {

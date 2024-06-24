@@ -18,7 +18,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * @apiNote Classe responsável por realizar os serviços solicitados pelo controllee
  * 
- * @author Vito Rodrigues Franzosi
+ * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 26.04.2024
  */
 @Service
@@ -32,7 +32,7 @@ public class ClienteService {
      * @apiNote Método responsável por listar os clientes cadastrados no banco de dados
      * @return List<Cliente>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 26.04.2024 / 03.05.2024
      */
     public String listar(String nome, String sexo, String cpf) {
@@ -72,7 +72,7 @@ public class ClienteService {
      * @param Integer id
      * @return Cliente
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 26.04.2024
      */
     public String buscarPorId(Integer id) {
@@ -98,7 +98,7 @@ public class ClienteService {
      * @param Integer idUsuario
      * @return String
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 26.04.2024
      */
     public String buscarPorIdUsuario(Integer idUsuario) {
@@ -127,7 +127,7 @@ public class ClienteService {
      * @param String cpf
      * @return String
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 03.05.2024
      */
     public String salvar(Integer id, Integer idUsuario, String nome, String sexo, String cpf) {
@@ -153,7 +153,7 @@ public class ClienteService {
      * @param Integer id
      * @return String
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 03.05.2024
      */
     public String excluir(Integer id) {
@@ -173,7 +173,7 @@ public class ClienteService {
      * @param cliente
      * @return ClienteModel
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 26.04.2024
      */
     private ClienteModel converterClienteToModel(Cliente cliente) {

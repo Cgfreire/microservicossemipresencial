@@ -20,7 +20,7 @@ public class ClienteService {
      * @param MultiValueMap<String, String> map
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 30.01.2024
      */
     public ResponseEntity<String> listarCliente(String url, MultiValueMap<String, String> map) {
@@ -38,7 +38,7 @@ public class ClienteService {
      * @param String token
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 03.05.2024
      */
     public ResponseEntity<String> buscarPorId(Integer id, String token) {
@@ -60,7 +60,7 @@ public class ClienteService {
      * @param String token
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 03.05.2024
      */
     public ResponseEntity<String> buscarPorIdUsuario(Integer idUsuario, String token) {
@@ -82,7 +82,7 @@ public class ClienteService {
      * @param String token
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 01.05.2024
      */
     public ResponseEntity<String> salvar(ClienteModel cliente, String token) {
@@ -108,7 +108,7 @@ public class ClienteService {
      * @param String token
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 03.05.2024
      */
     public ResponseEntity<String> excluir(Integer id, String token) {

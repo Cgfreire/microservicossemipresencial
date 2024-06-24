@@ -15,7 +15,7 @@ import com.br.unisales.microservicocliente.service.CompararUUID;
 /**
  * @apiNote Classe responsável por recever requisições do navegador (browser) e responder
  * 
- * @author Vito Rodrigues Franzosi
+ * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação 26.04.2024
  */
 @Controller
@@ -30,7 +30,7 @@ public class ClienteController {
      * @apiNote Método responsável por retornar a lista des clientes cadastrados no banco de dados
      * @return ResponseEntity<List<Cliente>>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 26.04.2024
      */
     @PostMapping("/listarCliente")
@@ -50,7 +50,7 @@ public class ClienteController {
      * @param Integer id
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 26.04.2024
      */
     @PostMapping("/buscarClientePorIdUsuario")
@@ -67,7 +67,7 @@ public class ClienteController {
      * @param String token
      * @return ResponseEntity<String>
      * 
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 26.04.2024
      */
     @PostMapping("/buscarClientePorId")
@@ -88,7 +88,7 @@ public class ClienteController {
      * @param Integer idUsuario
      * @return ResponseEntity<String>
      *
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 01.05.2024
      */
     @PostMapping("salvarCliente")
@@ -106,7 +106,7 @@ public class ClienteController {
      * @param String token
      * @return ResponseEntity<String>
      *
-     * @author Vito Rodrigues Franzosi
+     * @author VCaio Freire, Gabriel Ambuzeiro e Rian Vitor
      * @Data Criação 03.05.2024
      */
     @PostMapping("/excluirCliente")
