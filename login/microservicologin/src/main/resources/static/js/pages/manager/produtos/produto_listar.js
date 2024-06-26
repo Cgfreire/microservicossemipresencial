@@ -21,14 +21,49 @@ async function listarDados() {
 }
 
 /**
+ * @apiNote Função responsável por visualizar a área de busca do usuário
+ * 
+ * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
+ * @Data Criação 15.04.2024
+ */
+function setComboBox() {
+	let html='';
+	let grupo = window.sessionStorage.getItem('usuarioGrupo');
+	jQuery('#id_grupo').html('');
+	jQuery('#id_form_entidade').css('display', 'none');
+	jQuery('#id_form_novo_entidade').css('display', 'none');
+	jQuery('#id_div_btn_novo').css('display', 'none');
+	if(grupo=='Administrador') {
+		html += '<option value="Todos" selected>Todos</option>';
+		html += '<option value="Administrador">Administrador</option>';
+		html += '<option value="Cliente">Cliente</option>';
+		jQuery('#id_grupo').html(html);
+		jQuery('#id_form_entidade').css('display', 'block');
+		jQuery('#id_div_btn_novo').css('display', 'block');
+		jQuery('#id_form_novo_entidade').css('display', 'block');
+	}
+}
+
+
+/**
  * @apiNote Função responsável por inicialiar esta arquivo
  * 
  * @author Caio Freire, Gabriel Ambuzeiro e Rian Vitor
  * @Data Criação: 06.04.2024 / 15.04.2024
  */
 jQuery(function() {
+	setComboBox();
 	listarDados();
 	jQuery('#id_btn_buscar').click( function() {
 		listarDados();
+	});
+
+	jQuery('#id_btn_novo').click( function() {
+		window.sessionStorage.setItem('idUsuario', 0);
+		jQuery('#id_div_pagina').html('');
+		jQuery('#id_div_pagina').load('/pages/manager/produto/produto_form.html', function(statusTxt, xhr) {
+	        if(statusTxt == 'error')
+	        	alert('Error: ' + xhr.status + ': ' + xhr.statusText);
+        });
 	});
 });

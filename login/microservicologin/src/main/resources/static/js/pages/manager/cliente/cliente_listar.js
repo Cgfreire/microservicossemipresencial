@@ -31,4 +31,12 @@ jQuery(function() {
 	jQuery('#id_btn_buscar').click( function() {
 		listarDados();
 	});
+	jQuery('#id_btn_novo').click( function() {
+		window.sessionStorage.setItem('idUsuario', 0);
+		jQuery('#id_div_pagina').html('');
+		jQuery('#id_div_pagina').load('/pages/manager/cliente/cliente_form.html', function(statusTxt, xhr) {
+	        if(statusTxt == 'error')
+	        	alert('Error: ' + xhr.status + ': ' + xhr.statusText);
+        });
+	});
 });

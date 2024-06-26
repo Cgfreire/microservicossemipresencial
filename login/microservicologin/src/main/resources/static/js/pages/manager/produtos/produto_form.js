@@ -61,6 +61,13 @@ function visualizarDados(produto) {
             }
         });
     }
+    if(produto[0].preco) {
+        jQuery('#id_descricao').find('option').each(function() {
+            if(jQuery(this).val()==produto[0].preco) {
+                jQuery(this).prop('selected', true);
+            }
+        });
+    }
 }
 
 /**
